@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgb(83, 77, 77);
+    height: auto;
+    display: flex;
+    align-items: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.container{
+    height: auto;
+    width: 300px;
+    background: white;
+    margin: auto;
+    padding: 20px 10px 20px 10px;
+    border-radius: 25px;
+    -webkit-border-radius: 25px;
+    -moz-border-radius: 25px;
+    -ms-border-radius: 25px;
+    -o-border-radius: 25px;
+}
+h2, h3, p{
+    text-align: center;
+}
+h2{
+    color: rgb(19, 19, 132);
+}
+h3{
+    font-size: 1.7rem;
+    font-weight: 600;
+    margin-top: 15px;
+}
+p{
+    font-size: 0.9rem;
+}
+form{
+    margin-top: 20px;
+}
+.form-input-details{
+    margin-bottom: 10px;
+}
+form .form-input-details input{
+    height: 45px;
+    width: 100%;
+    font-size: 1.1rem;
+    padding: 1rem 5px 1rem 5px;
+    margin-top: 5px;
+    border: 1px solid black;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+form .form-input-details .password-container{
+    position: relative;
+}
+form .form-input-details .password-container img{
+    position: absolute; 
+    right: 15px; 
+    top: 20px;
+    cursor: pointer;
+}
+.eye{
+    content: url("eye.svg")
+}
+.d-flex{
+    display: flex;
+}
+input[type="checkbox"]{
+    display: none;
+}
+.screen{
+    text-align: left;
+    font-size: 0.8rem;
+    display: inline-block;
+}
+
+.links{
+    margin-top: 30px;
+    display: grid;
+    place-items: center;
+}
+button{
+    cursor: pointer;
+    width: 100%;
+    font-size: 1.3rem;
+    padding-top: 10px;
+    background: blue;
+    color: white;
+    border: none;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+button:hover{
+    opacity: 0.8;
+}
+.links p{
+    font-size: 0.7rem;
+    font-weight: bold;
+}
+.links p a{
+    color: blue;
+    text-decoration: none;
+}
