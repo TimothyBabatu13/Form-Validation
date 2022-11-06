@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>Mofi</h2>
+        <h3>Sign Up</h3>
+        <p>Create a free account</p>
+
+        <form action="">
+            <div class="form-input-details">
+                <label for="">Name</label> 
+                <input type="text" name="" id="">
+            </div> 
+            <div class="form-input-details">
+                <label for="">Email</label> 
+                <input type="email" name="" id="" required> 
+            </div>
+            <div class="form-input-details">
+                <label for="">Password</label> 
+                <div class="password-container">
+                    <input  type="password" name="" id="" class="showPassword">
+                    <img src="./icons/eye-slash.svg" class="eye-slash">
+                </div>
+            </div>
+            <div class="form-input-details">
+                <label for="">Re-Enter Paassword</label>
+                <div class="password-container">
+                    <input  type="password" name="" id="" class="showPassword">
+                    <img src="./icons/eye-slash.svg" class="eye-slash">
+                </div>
+            </div>
+            <div class="d-flex">
+                <input type="checkbox" name="" class="check" checked>
+                <p class="screen"></p>
+            </div>
+             <div class="d-flex">
+                <input type="checkbox" name="" class="check" checked>
+                <p class="screen"></p>
+            </div>   
+            <div class="d-flex">
+                <input type="checkbox" name="" class="check" checked>
+                <p class="screen"></p>
+            </div>      
+            <div class="d-flex">
+                <p class="screen"></p>
+            </div>
+        </form>
+
+        <div class="links">
+            <button type="submit">Sign up</button>
+            <p>already have an account? <a href="">login</a></p>
+        </div>
+    </div>
+    
+    <script src="app.js"></script>
+</body>
+</html>
